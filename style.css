@@ -772,4 +772,79 @@ footer span a:hover {
     font-size: 23px;
     line-height: 38px;
   }
+  .testimonials {
+    padding: 100px 0;
+    background: #f9f9f9;
+    color: #333;
+  }
+  
+  .testimonials .title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 40px;
+  }
+  
+  .testimonials .carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .testimonial {
+    max-width: 600px;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .testimonial:hover {
+    transform: scale(1.05);
+  }
+  
+  .testimonial p {
+    font-size: 18px;
+    font-style: italic;
+    line-height: 1.6;
+    margin-bottom: 10px;
+  }
+  
+  .testimonial h4 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+  }
+  .testimonial a {
+    color: crimson;
+    text-decoration: none;
+  }
+  
+  .testimonial a:hover {
+    text-decoration: underline;
+  }
+  
+  .owl-dots {
+    text-align: center;
+    margin-top: 15px;
+  }
+  
+  .owl-dot {
+    height: 12px;
+    width: 12px;
+    margin: 5px;
+    border-radius: 50%;
+    background: #ddd;
+    transition: background 0.3s;
+  }
+  
+  .owl-dot.active,
+  .owl-dot:hover {
+    background: crimson;
+  }
 }
+
